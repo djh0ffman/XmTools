@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMTools", "XMSerializer\XMTools.csproj", "{75EAF7BA-B71C-47DB-ADDC-3CA80F337E73}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XMSerializerTest", "XMSerializerTest\XMSerializerTest.csproj", "{7F4F83A6-0A11-40D8-AC77-6C7FFEBC7202}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Injector", "Injector\Injector.csproj", "{5E87E2A0-02C7-4DB4-A444-A4AC2818F450}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75EAF7BA-B71C-47DB-ADDC-3CA80F337E73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75EAF7BA-B71C-47DB-ADDC-3CA80F337E73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75EAF7BA-B71C-47DB-ADDC-3CA80F337E73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75EAF7BA-B71C-47DB-ADDC-3CA80F337E73}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F4F83A6-0A11-40D8-AC77-6C7FFEBC7202}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F4F83A6-0A11-40D8-AC77-6C7FFEBC7202}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F4F83A6-0A11-40D8-AC77-6C7FFEBC7202}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F4F83A6-0A11-40D8-AC77-6C7FFEBC7202}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E87E2A0-02C7-4DB4-A444-A4AC2818F450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E87E2A0-02C7-4DB4-A444-A4AC2818F450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E87E2A0-02C7-4DB4-A444-A4AC2818F450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E87E2A0-02C7-4DB4-A444-A4AC2818F450}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
