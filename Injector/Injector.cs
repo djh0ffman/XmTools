@@ -182,18 +182,32 @@ namespace Injector
 
                     foreach (var d in dupes)
                     {
-                        _project.Plans.Add(new InjectionPlan()
+                        var p = new InjectionPlan()
                         {
                             DestinationLine = d.DestinationLine,
-                            Images = d.Images,
+                            Images = new List<InjectionImage>(),
                             LoopLineInc = d.LoopLineInc,
                             LoopSize = d.LoopSize,
                             Name = d.Name + " copy",
                             PatternHeight = d.PatternHeight,
                             SongPosition = d.SongPosition,
                             TotalFrames = d.TotalFrames,
-                            PixelMode = d.PixelMode
-                        });
+                            PixelMode = d.PixelMode,
+                            FrameLineInc = d.FrameLineInc,
+                            PatternAllFrames = d.PatternAllFrames
+                        };
+
+                        foreach (var i in d.Images)
+                        {
+                            p.Images.Add(new InjectionImage()
+                            {
+                                FileName = i.FileName,
+                                Image = i.Image,
+                                PatternHeight = i.PatternHeight
+                            });
+                        }
+
+                        _project.Plans.Add(p);
                     }
 
                     RefreshData();
