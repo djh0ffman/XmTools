@@ -5,10 +5,10 @@ Coded for the Wrecklamation "demo" in XMPlay by Logicoma released at the Revisio
 
 Check out the results of this endeavour here..
 
-Youtube - https://www.youtube.com/watch?v=O38R4YMJqeA \
-Youtube Live - https://www.youtube.com/watch?v=r8Lm9CoxEHg \
-Pouet - http://www.pouet.net/prod.php?which=75812 \
-Demozoo - https://demozoo.org/music/185107/ \
+Youtube - https://www.youtube.com/watch?v=O38R4YMJqeA 
+Youtube Live - https://www.youtube.com/watch?v=r8Lm9CoxEHg 
+Pouet - http://www.pouet.net/prod.php?which=75812 
+Demozoo - https://demozoo.org/music/185107/ 
 
 More info in the wiki
 
